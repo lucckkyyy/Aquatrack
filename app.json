@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "AquaTrack",
+    "slug": "aquatrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aquatrack.app",
+      "infoPlist": {
+        "UIBackgroundModes": ["location", "remote-notification"],
+        "NSLocationWhenInUseUsageDescription": "AquaTrack uses your location to fetch local weather and personalize your hydration goal.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "AquaTrack uses your location to fetch local weather and personalize your hydration goal."
+      },
+      "plugins": [
+        "expo-location",
+        [
+          "expo-notifications",
+          {
+            "sounds": []
+          }
+        ]
+      ]
+    },
+    "android": {
+      "package": "com.aquatrack.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ],
+      "plugins": [
+        "expo-location",
+        "expo-notifications"
+      ]
+    },
+    "plugins": [
+      "expo-location",
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "aquatrack"
+      }
+    }
+  }
+}
