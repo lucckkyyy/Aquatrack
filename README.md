@@ -1,171 +1,70 @@
 💧 AquaTrack – Smart Hydration Reminder App
-📘 Building a Practical Mobile App with React Native
+📘 Building a Practical Mobile Application
 
-I created AquaTrack to address a simple but common issue — forgetting to drink enough water during the day. The app uses real-time weather data and personalized user inputs to recommend a daily hydration goal and send reminders throughout the day.
-
-This project helped me gain hands-on experience building a complete mobile application using React Native and Expo, integrating external APIs, and managing persistent user data on a real device.
+I built AquaTrack to solve a simple everyday problem forgetting to drink enough water. The app helps users stay hydrated by setting personalized water goals based on user profile information and real-time weather conditions. Building this project allowed me to practice creating a complete mobile application while working with APIs, notifications, and persistent mobile storage.
 
 🎯 Development Journey
 Timeline & Approach
 
-Duration: Built iteratively as a personal project
-
-Process: Feature-by-feature development with real-device testing
-
-Focus: Practical functionality, responsive UI, and reliable notifications
-
-Platform: iOS testing via Expo Go
-
-Throughout development, I focused on creating a realistic user experience while learning how mobile apps manage state, notifications, and external data.
+Duration: Personal project built iteratively through multiple development sessions
+Process: Designing features, testing them on a real device, and improving usability
+Focus: Mobile interface design, API integration, and notification systems
 
 🧠 Skills I Developed Through This Project
 Mobile App Development
 
-Building multi-screen mobile applications with React Native
-
-Navigation between screens using React Navigation
-
-Managing application state across components
-
-Creating reusable components and modular project structure
-
-Debugging and testing on a physical device
+Building multi-screen mobile interfaces using React Native
+Implementing navigation between screens using React Navigation
+Designing reusable components and modular project structure
+Testing and debugging the application on a real device using Expo Go
 
 API Integration
 
 Fetching real-time weather data from the Open-Meteo API
-
-Using device GPS coordinates to determine location
-
-Handling API loading states and error conditions
-
-Implementing manual refresh and data updates
+Using device location to personalize weather information
+Handling API loading states and refresh functionality
+Processing external data to influence hydration recommendations
 
 Data Persistence
 
-Storing hydration data locally using AsyncStorage
-
-Saving user preferences such as weight and activity level
-
-Persisting hydration history and streak tracking
-
-Managing daily reset logic for hydration tracking
+Saving hydration data and user preferences using AsyncStorage
+Storing daily hydration history and streak tracking
+Managing daily reset logic for hydration goals
+Maintaining user data across application sessions
 
 Notification Systems
 
-Scheduling local push notifications
+Scheduling local hydration reminder notifications
+Implementing reminder logic based on user activity
+Creating quiet hours to prevent notifications during sleep
+Managing notification timing and cancellation logic
 
-Implementing reminder logic based on user behavior
+Feature Engineering
 
-Preventing notification spam using time checks
-
-Supporting customizable quiet hours
-
-Feature Engineering & App Logic
-
-Calculating personalized hydration goals based on user profile
-
-Applying weather-based adjustments to daily water intake
-
+Creating personalized hydration goals based on user profile data
+Adjusting water intake recommendations using temperature and humidity
 Tracking hydration progress throughout the day
-
-Implementing achievement badges and streak tracking
+Implementing streak tracking and motivation through achievements
 
 ⚡ Technical Focus Areas
 What I Worked On
 
-Designing a complete mobile application architecture
-
-Integrating real-time weather data with user personalization
-
-Implementing reminder systems that adapt to user activity
-
-Creating hydration progress visualization
-
-Managing persistent user data across app sessions
+Designing a full mobile application architecture from scratch
+Integrating weather data with hydration recommendations
+Building reminder systems that adapt to user activity
+Creating hydration progress tracking and analytics
+Structuring a scalable React Native project
 
 Skills I Leveled Up
 
-React Native component design
-
+React Native component architecture
 Custom React hooks for reusable logic
+API integration and data handling
+Local notification management
+Project organization and GitHub documentation
 
-Mobile notification scheduling
+🚀 The Learning Outcome
 
-API consumption and data handling
-
-Project organization and GitHub workflow
-
-🚀 How to Run the Project
-Prerequisites
-
-Node.js (v18 or higher)
-
-Expo CLI
-
-Expo Go installed on your mobile device
-
-Both computer and phone connected to the same WiFi network
-
-Installation
-git clone https://github.com/lucckkyyy/aquatrack.git
-cd aquatrack
-npm install --legacy-peer-deps
-Run the Application
-npx expo start --lan
-
-Scan the QR code using your phone camera and open the project in Expo Go.
-
-🏗️ Project Structure
-├── App.js
-├── app.json
-└── src
-    ├── screens
-    ├── components
-    ├── hooks
-    ├── utils
-    └── constants
-
-This structure keeps UI components, logic, and utilities organized for scalability.
-
-✨ Key Features
-
-💧 Personalized hydration goals based on user profile
-
-🌡 Real-time weather data integration
-
-📍 Location-based weather insights
-
-🔔 Smart hydration reminders
-
-📊 Hydration progress tracking and history
-
-🔥 Daily streak tracking and achievements
-
-↩ Undo last hydration entry
-
-🌙 Customizable quiet hours
-
-👤 User profile customization
-
-🛣️ Future Improvements
-
-Potential features planned for future iterations:
-
-Apple Health integration
-
-Social hydration challenges
-
-Custom bottle size tracking
-
-Advanced hydration analytics
-
-App Store / TestFlight release
-
-🌱 Learning Outcome
-
-AquaTrack represents one of my most complete personal projects. It helped me understand how to take an idea from concept to a working mobile application, integrate live data sources, and design features that solve a real-world problem.
-
-Through this project, I significantly improved my understanding of mobile development, API integration, and real-world application architecture.
+AquaTrack helped me understand how a mobile application evolves from an idea to a working product. Through this project I learned how to integrate live APIs, manage persistent mobile data, and design features that respond to real user behavior. Testing on a real device and iterating on the app significantly improved my confidence in building mobile applications with React Native.
 
 Author: Aryan Rajguru
