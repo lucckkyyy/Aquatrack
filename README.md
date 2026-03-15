@@ -2,7 +2,7 @@
 
 ## 📘 Building a Real-World Mobile Application
 
-I created AquaTrack to solve a simple but common problem — forgetting to drink enough water during the day. This project focuses on building a practical mobile application that helps users track hydration while adjusting water intake recommendations based on real-time weather conditions and personal activity levels.
+I created AquaTrack to solve a simple but common problem forgetting to drink enough water during the day. This project focuses on building a practical mobile application that helps users track hydration while adjusting water intake recommendations based on real-time weather conditions and personal activity levels.
 
 The goal of this project was to strengthen my understanding of mobile application architecture, API integration, and persistent data handling while developing a useful real-world tool.
 
